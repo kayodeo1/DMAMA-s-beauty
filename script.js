@@ -1058,7 +1058,7 @@ function setupSlideshow(card, productCount) {
 
   // Auto slideshow
   const cardIndex = card.dataset.cardIndex
-  slideshowIntervals[cardIndex] = setInterval(() => showSlide(currentSlide + 1), 5000)
+  slideshowIntervals[cardIndex] = setInterval(() => showSlide(currentSlide + 1), 2000)
 
   // Pause on hover
   card.addEventListener("mouseenter", () => clearInterval(slideshowIntervals[cardIndex]))
