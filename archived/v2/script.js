@@ -1,4 +1,4 @@
-// Product Data - Grouped by Image
+// Product Data - Grouped by Image (Catalogue 01 2026)
 const productGroups = [
   {
     image: "images/C1-2026 catalogue 1_page-0001.jpg",
@@ -340,7 +340,6 @@ const productGroups = [
       {
         name: "Divine Perfumed Body Cream",
         category: "Fragrance",
-        description: "",
         price: "NGN 23,990",
         size: "250 ml",
       },
@@ -354,7 +353,6 @@ const productGroups = [
       {
         name: "Love Potion Perfumed Body Cream",
         category: "Fragrance",
-        description: "",
         price: "NGN 23,990",
         size: "250 ml",
       },
@@ -380,7 +378,6 @@ const productGroups = [
       {
         name: "All Or Nothing Amplified Perfumed Body Cream",
         category: "Fragrance",
-        description: "",
         price: "NGN 23,990",
         size: "250 ml",
       },
@@ -406,42 +403,36 @@ const productGroups = [
       {
         name: "Giordani Gold Man Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 59,990",
         size: "75 ml",
       },
       {
         name: "Giordani Gold Man Anti-perspirant Roll-On",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,190",
         size: "50 ml",
       },
       {
         name: "Giordani Gold Essenza Man Elixir Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 89,990",
         size: "50 ml",
       },
       {
         name: "Giordani Gold Essenza Supreme Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 89,990",
         size: "50 ml",
       },
       {
         name: "Giordani Gold Woman Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 59,990",
         size: "50 ml",
       },
       {
         name: "Giordani Gold Woman Perfumed Roll-On",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,190",
         size: "50 ml",
       },
@@ -474,7 +465,6 @@ const productGroups = [
       {
         name: "Greater Eau de Toilette for him",
         category: "Fragrance",
-        description: "",
         price: "NGN 48,990",
         size: "75 ml",
       },
@@ -486,42 +476,36 @@ const productGroups = [
       {
         name: "Eclat Amour Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 41,990",
         size: "50 ml",
       },
       {
         name: "Eclat Toujours Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 41,990",
         size: "75 ml",
       },
       {
         name: "ECLAT Amour Intensité Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 41,990",
         size: "50 ml",
       },
       {
         name: "Infinita Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 54,990",
         size: "50 ml",
       },
       {
         name: "Eclat Nuit Eau de Parfum for her",
         category: "Fragrance",
-        description: "",
         price: "NGN 59,990",
         size: "50 ml",
       },
       {
         name: "Infinita My Sunshine Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 54,990",
         size: "50 ml",
       },
@@ -547,7 +531,6 @@ const productGroups = [
       {
         name: "Volare Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 43,990",
         size: "50 ml",
       },
@@ -561,7 +544,6 @@ const productGroups = [
       {
         name: "Amber Elixir Mystery Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 59,990",
         size: "50 ml",
       },
@@ -573,21 +555,18 @@ const productGroups = [
       {
         name: "Scope Time Loop Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 48,990",
         size: "50 ml",
       },
       {
         name: "Scope Earth Wonder Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 48,990",
         size: "50 ml",
       },
       {
         name: "Signature Man Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 59,990",
         size: "75 ml",
       },
@@ -599,28 +578,24 @@ const productGroups = [
       {
         name: "Ascendant Intense Eau de Parfum",
         category: "Fragrance",
-        description: "",
         price: "NGN 59,990",
         size: "75 ml",
       },
       {
         name: "Glacier Rock Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 36,790",
         size: "100 ml",
       },
       {
         name: "Be The Legend Anti-perspirant Roll-on",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,190",
         size: "50 ml",
       },
       {
         name: "Be the Legend Eau de Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 41,990",
         size: "75 ml",
       },
@@ -632,7 +607,6 @@ const productGroups = [
       {
         name: "Men's Collection Agave Power Eau De Toilette",
         category: "Fragrance",
-        description: "",
         price: "NGN 43,990",
         size: "100 ml",
       },
@@ -644,21 +618,18 @@ const productGroups = [
       {
         name: "THE ONE Everlasting Sync Stress-Free Foundation",
         category: "Makeup",
-        description: "",
         price: "NGN 26,290",
         size: "30 ml",
       },
       {
         name: "THE ONE False Lashes Salon Lift Mascara",
         category: "Makeup",
-        description: "",
         price: "NGN 19,990",
         size: "8 ml",
       },
       {
         name: "THE ONE Colour Unlimited Eye Shadow & Eye Pencil Duo",
         category: "Makeup",
-        description: "",
         price: "NGN 27,490",
         size: "1.2 g",
       },
@@ -670,28 +641,24 @@ const productGroups = [
       {
         name: "THE ONE Smart Sync Lipstick",
         category: "Makeup",
-        description: "",
         price: "NGN 19,790",
         size: "3.8 g",
       },
       {
         name: "THE ONE 5-in-1 Wonder Lash XXL Mascara",
         category: "Makeup",
-        description: "",
         price: "NGN 15,490",
         size: "8 ml",
       },
       {
         name: "THE ONE Colour Unlimited Ultra Fix Lipstick",
         category: "Makeup",
-        description: "",
         price: "NGN 22,790",
         size: "3.5 g",
       },
       {
         name: "THE ONE Irresistible Touch High Shine Lipstick",
         category: "Makeup",
-        description: "",
         price: "NGN 22,790",
         size: "4 ml",
       },
@@ -715,42 +682,36 @@ const productGroups = [
       {
         name: "Pure Skin Clarifying Toning Solution",
         category: "Skincare",
-        description: "",
         price: "NGN 15,290",
         size: "150 ml",
       },
       {
         name: "Pure Skin Mattifying & Cooling Face Lotion",
         category: "Skincare",
-        description: "",
         price: "NGN 15,290",
         size: "50 ml",
       },
       {
         name: "Pure Skin Smoothing Face Scrub",
         category: "Skincare",
-        description: "",
         price: "NGN 14,490",
         size: "75 ml",
       },
       {
         name: "Pure Skin Pore Clearing Peel-off Mask",
         category: "Skincare",
-        description: "",
         price: "NGN 14,490",
         size: "50 ml",
       },
       {
         name: "Pure Skin 5 Minute Oil-control Clay Mask",
         category: "Skincare",
-        description: "",
         price: "NGN 14,490",
         size: "50 ml",
       },
       {
         name: "Pure Skin SOS Blemish Gel",
         category: "Skincare",
-        description: "",
         price: "NGN 13,490",
         size: "6 ml",
       },
@@ -762,49 +723,42 @@ const productGroups = [
       {
         name: "Love Nature Mattifying Face Lotion (Tea Tree & Lime)",
         category: "Skincare",
-        description: "",
         price: "NGN 14,690",
         size: "50 ml",
       },
       {
         name: "Love Nature Hydrating Face Mask (Aloe Vera & Pineapple)",
         category: "Skincare",
-        description: "",
         price: "NGN 14,690",
         size: "75 ml",
       },
       {
         name: "Love Nature Hydrating Toner (Aloe Vera & Pineapple)",
         category: "Skincare",
-        description: "",
         price: "NGN 14,690",
         size: "150 ml",
       },
       {
         name: "Love Nature Hydrating Face Cream (Aloe Vera & Pineapple)",
         category: "Skincare",
-        description: "",
         price: "NGN 14,690",
         size: "50 ml",
       },
       {
         name: "Love Nature Gel Cleanser (Aloe Vera & Pineapple)",
         category: "Skincare",
-        description: "",
         price: "NGN 14,690",
         size: "125 ml",
       },
       {
         name: "Love Nature Purifying Face Oil (Tea Tree & Lime)",
         category: "Skincare",
-        description: "",
         price: "NGN 11,290",
         size: "10 ml",
       },
       {
         name: "Love Nature Purifying Toner (Tea Tree & Lime)",
         category: "Skincare",
-        description: "",
         price: "NGN 14,690",
         size: "150 ml",
       },
@@ -816,14 +770,12 @@ const productGroups = [
       {
         name: "Novage+ Proceuticals Ultra Light UV-Age Day Shield",
         category: "Skincare",
-        description: "",
         price: "NGN 43,390",
         size: "30 ml",
       },
       {
         name: "Novage+ Refresh Gel Cleanser",
         category: "Skincare",
-        description: "",
         price: "NGN 43,890",
         size: "150 ml",
       },
@@ -861,7 +813,6 @@ const productGroups = [
       {
         name: "Novage+ Blemish + Age Defy Routine",
         category: "Skincare",
-        description: "",
         price: "NGN 216,890",
         size: "Set",
       },
@@ -880,35 +831,30 @@ const productGroups = [
       {
         name: "Optimals Soothing Micellar Cleansing Water",
         category: "Skincare",
-        description: "",
         price: "NGN 17,490",
         size: "150 ml",
       },
       {
         name: "Optimals Exfoliating Face Scrub",
         category: "Skincare",
-        description: "",
         price: "NGN 17,490",
         size: "75 ml",
       },
       {
         name: "Optimals Purifying Clay Face Mask",
         category: "Skincare",
-        description: "",
         price: "NGN 20,590",
         size: "50 ml",
       },
       {
         name: "Love Nature Nourishing Body, Face & Hair Oil",
         category: "Personal Care",
-        description: "",
         price: "NGN 17,290",
         size: "100 ml",
       },
       {
         name: "Glow Essentials Body Lotion with Vitamins E & B3",
         category: "Skincare",
-        description: "",
         price: "NGN 16,590",
         size: "250 ml",
       },
@@ -920,14 +866,12 @@ const productGroups = [
       {
         name: "The Body Edition Anti-Stretch Mark Body Concentrate",
         category: "Skincare",
-        description: "",
         price: "NGN 33,290",
         size: "125 ml",
       },
       {
         name: "The Body Edition Anti-Cellulite Body Gel",
         category: "Skincare",
-        description: "",
         price: "NGN 33,290",
         size: "150 ml",
       },
@@ -939,49 +883,42 @@ const productGroups = [
       {
         name: "Love Nature Hand Cream - Passion Fruit",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "75 ml",
       },
       {
         name: "Love Nature Hand Cream - Avocado Oil",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "75 ml",
       },
       {
         name: "Love Nature Hand Cream - Coconut Oil",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "75 ml",
       },
       {
         name: "Tender Care Multi-purpose Balm - Sweet Mandarin",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,490",
         size: "10.5 ml",
       },
       {
         name: "Tender Care Multi-purpose Balm - Raspberry",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,490",
         size: "10.5 ml",
       },
       {
         name: "Tender Care Multi-purpose Balm - Blackcurrant",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,490",
         size: "10.5 ml",
       },
       {
         name: "Tender Care Multi-purpose Balm - Natural",
         category: "Personal Care",
-        description: "",
         price: "NGN 9,490",
         size: "10.5 ml",
       },
@@ -993,49 +930,41 @@ const productGroups = [
       {
         name: "North For Men Subzero Deodorant",
         category: "Personal Care",
-        description: "",
         price: "NGN 7,990",
       },
       {
         name: "North For Men Subzero Shaving Foam",
         category: "Personal Care",
-        description: "",
         price: "NGN 22,990",
       },
       {
         name: "North For Men Subzero Gel",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,990",
       },
       {
         name: "Activelle Power Move Spray Deodorant",
         category: "Personal Care",
-        description: "",
         price: "NGN 12,990",
       },
       {
         name: "Activelle Invisible Fresh Roll-On",
         category: "Personal Care",
-        description: "",
         price: "NGN 7,990",
       },
       {
         name: "Activelle Extreme Roll-On",
         category: "Personal Care",
-        description: "",
         price: "NGN 7,990",
       },
       {
         name: "Activelle Power Move Roll-On",
         category: "Personal Care",
-        description: "",
         price: "NGN 7,990",
       },
       {
         name: "Activelle Even Tone Roll-On",
         category: "Personal Care",
-        description: "",
         price: "NGN 7,990",
       },
     ],
@@ -1046,28 +975,24 @@ const productGroups = [
       {
         name: "Optifresh Pro White Toothpaste",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "100 ml",
       },
       {
         name: "Optifresh Maximum Fresh Toothpaste",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "100 ml",
       },
       {
         name: "Optifresh Natural Oils Toothpaste",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "75 ml",
       },
       {
         name: "Optifresh Sensitive Toothpaste",
         category: "Personal Care",
-        description: "",
         price: "NGN 8,490",
         size: "75 ml",
       },
@@ -1079,31 +1004,26 @@ const productGroups = [
       {
         name: "Feet Up Overnight Cream",
         category: "Personal Care",
-        description: "",
         price: "NGN 11,290",
       },
       {
         name: "Feet Up Softening Cream",
         category: "Personal Care",
-        description: "",
         price: "NGN 18,490",
       },
       {
         name: "Feet Up Refreshing Spray",
         category: "Personal Care",
-        description: "",
         price: "NGN 29,990",
       },
       {
         name: "Feet Up Anti-Perspirant Cream",
         category: "Personal Care",
-        description: "",
         price: "NGN 16,990",
       },
       {
         name: "Feet Up Foot File",
         category: "Personal Care",
-        description: "",
         price: "NGN 10,990",
       },
     ],
@@ -1114,31 +1034,26 @@ const productGroups = [
       {
         name: "DUOLOGI Anti-Flake Shampoo",
         category: "Hair Care",
-        description: "",
         price: "NGN 27,290",
       },
       {
         name: "DUOLOGI Intense Repair Shampoo",
         category: "Hair Care",
-        description: "",
         price: "NGN 27,290",
       },
       {
         name: "DUOLOGI Sealing Serum",
         category: "Hair Care",
-        description: "",
         price: "NGN 26,390",
       },
       {
         name: "DUOLOGI Hair Mask",
         category: "Hair Care",
-        description: "",
         price: "NGN 23,490",
       },
       {
         name: "DUOLOGI Rich Creme Conditioner",
         category: "Hair Care",
-        description: "",
         price: "NGN 27,290",
       },
     ],
@@ -1149,230 +1064,194 @@ const productGroups = [
       {
         name: "Love Nature Conditioner",
         category: "Hair Care",
-        description: "",
         price: "NGN 13,790",
       },
       {
         name: "Love Nature Hair Oil",
         category: "Hair Care",
-        description: "",
         price: "NGN 14,990",
       },
       {
         name: "Love Nature Hot Oil",
         category: "Hair Care",
-        description: "",
         price: "NGN 4,590",
       },
       {
         name: "Love Nature Up-Loved Purifying Shampoo",
         category: "Hair Care",
-        description: "",
         price: "NGN 13,790",
       },
       {
         name: "Love Nature Smoothie Mask",
         category: "Hair Care",
-        description: "",
         price: "NGN 5,290",
       },
       {
         name: "Love Nature Leave-in Conditioner",
         category: "Hair Care",
-        description: "",
         price: "NGN 13,790",
       },
       {
         name: "Love Nature 2-in-1 Shampoo",
         category: "Hair Care",
-        description: "",
         price: "NGN 25,990",
       },
     ],
   },
 ];
 
-// State
-let currentCategory = "all"
-let searchQuery = ""
-let slideshowIntervals = {}
+// Get all unique categories
+const categories = [...new Set(productGroups.flatMap(group => group.products.map(p => p.category)))].sort();
 
 // DOM Elements
-const productsGrid = document.getElementById("productsGrid")
-const noResults = document.getElementById("noResults")
-const resultsCount = document.getElementById("resultsCount")
-const searchInput = document.getElementById("searchInput")
-const categoryTabs = document.querySelectorAll(".tab")
+const searchInput = document.getElementById("searchInput");
+const categoryFilter = document.getElementById("categoryFilter");
+const clearFilters = document.getElementById("clearFilters");
+const productsContainer = document.getElementById("productsContainer");
 
-// Normalize category for filtering
-function normalizeCategory(category) {
-  if (category.includes("Fragrance")) return "Fragrance"
-  if (category.includes("Personal Care")) return "Personal Care"
-  return category
+// Create category filter buttons
+function createCategoryButtons() {
+  categoryFilter.innerHTML = '<button class="category-btn active" data-category="all">All</button>';
+  categories.forEach(cat => {
+    const btn = document.createElement("button");
+    btn.className = "category-btn";
+    btn.textContent = cat;
+    btn.dataset.category = cat;
+    categoryFilter.appendChild(btn);
+  });
+}
+
+// Filter and display products
+function displayProducts(filtered = productGroups) {
+  productsContainer.innerHTML = "";
+  
+  filtered.forEach((group, idx) => {
+    const groupCard = document.createElement("div");
+    groupCard.className = "product-group-card";
+    
+    const image = document.createElement("img");
+    image.src = group.image;
+    image.alt = `Product group ${idx + 1}`;
+    image.className = "group-image";
+    
+    const productsSlider = document.createElement("div");
+    productsSlider.className = "products-slider";
+    
+    // Create product slides
+    group.products.forEach((product, i) => {
+      const slide = document.createElement("div");
+      slide.className = `product-slide ${i === 0 ? "active" : ""}`;
+      slide.innerHTML = `
+        <div class="product-info">
+          <h3 class="product-name">${product.name}</h3>
+          <p class="product-category">${product.category}</p>
+          ${product.description ? `<p class="product-description">${product.description}</p>` : ""}
+          <p class="product-price">${product.price}</p>
+          ${product.size ? `<p class="product-size">Size: ${product.size}</p>` : ""}
+        </div>
+      `;
+      productsSlider.appendChild(slide);
+    });
+    
+    // Navigation controls if multiple products
+    if (group.products.length > 1) {
+      const navControls = document.createElement("div");
+      navControls.className = "slider-nav";
+      
+      // Previous button
+      const prevBtn = document.createElement("button");
+      prevBtn.className = "nav-btn prev-btn";
+      prevBtn.innerHTML = "&#10094;";
+      prevBtn.onclick = () => navigateSlider(productsSlider, -1);
+      navControls.appendChild(prevBtn);
+      
+      // Dots
+      const dotsContainer = document.createElement("div");
+      dotsContainer.className = "slider-dots";
+      group.products.forEach((_, i) => {
+        const dot = document.createElement("button");
+        dot.className = `dot ${i === 0 ? "active" : ""}`;
+        dot.onclick = () => goToSlide(productsSlider, i);
+        dotsContainer.appendChild(dot);
+      });
+      navControls.appendChild(dotsContainer);
+      
+      // Next button
+      const nextBtn = document.createElement("button");
+      nextBtn.className = "nav-btn next-btn";
+      nextBtn.innerHTML = "&#10095;";
+      nextBtn.onclick = () => navigateSlider(productsSlider, 1);
+      navControls.appendChild(nextBtn);
+      
+      productsSlider.appendChild(navControls);
+    }
+    
+    groupCard.appendChild(image);
+    groupCard.appendChild(productsSlider);
+    productsContainer.appendChild(groupCard);
+  });
+}
+
+// Navigate slider
+function navigateSlider(slider, direction) {
+  const slides = slider.querySelectorAll(".product-slide");
+  const currentIndex = Array.from(slides).findIndex(s => s.classList.contains("active"));
+  let newIndex = currentIndex + direction;
+  
+  if (newIndex >= slides.length) newIndex = 0;
+  if (newIndex < 0) newIndex = slides.length - 1;
+  
+  goToSlide(slider, newIndex);
+}
+
+// Go to specific slide
+function goToSlide(slider, index) {
+  const slides = slider.querySelectorAll(".product-slide");
+  const dots = slider.querySelectorAll(".dot");
+  
+  slides.forEach(s => s.classList.remove("active"));
+  dots.forEach(d => d.classList.remove("active"));
+  
+  slides[index].classList.add("active");
+  if (dots[index]) dots[index].classList.add("active");
 }
 
 // Filter products
 function filterProducts() {
-  const filteredGroups = productGroups
-    .map((group) => {
-      const filteredProducts = group.products.filter((product) => {
-        const matchesCategory = currentCategory === "all" || normalizeCategory(product.category) === currentCategory
-        const matchesSearch =
-          searchQuery === "" ||
-          product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          product.description.toLowerCase().includes(searchQuery.toLowerCase())
-        return matchesCategory && matchesSearch
-      })
-      return { ...group, products: filteredProducts }
-    })
-    .filter((group) => group.products.length > 0)
-
-  return filteredGroups
+  const searchTerm = searchInput.value.toLowerCase();
+  const selectedCategory = document.querySelector(".category-btn.active").dataset.category;
+  
+  let filtered = productGroups.filter(group => {
+    const categoryMatch = selectedCategory === "all" || group.products.some(p => p.category === selectedCategory);
+    const searchMatch = searchTerm === "" || group.products.some(p =>
+      p.name.toLowerCase().includes(searchTerm) ||
+      p.description?.toLowerCase().includes(searchTerm) ||
+      p.category.toLowerCase().includes(searchTerm)
+    );
+    return categoryMatch && searchMatch;
+  });
+  
+  displayProducts(filtered);
 }
 
-// Create product card HTML
-function createProductCard(group, index) {
-  const products = group.products
-  const hasMultiple = products.length > 1
+// Event listeners
+searchInput.addEventListener("input", filterProducts);
 
-  const slidesHTML = products
-    .map(
-      (product, i) => `
-    <div class="product-slide ${i === 0 ? "active" : ""}" data-index="${i}">
-      <span class="product-category">${product.category}</span>
-      <h3 class="product-name">${product.name}</h3>
-      <p class="product-description">${product.description}</p>
-      <p class="product-price">${product.price} <span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-muted);">(${product.size})</span></p>
-    </div>
-  `,
-    )
-    .join("")
-
-  const dotsHTML = hasMultiple
-    ? `
-    <div class="slideshow-nav">
-      ${products.map((_, i) => `<button class="slideshow-dot ${i === 0 ? "active" : ""}" data-index="${i}"></button>`).join("")}
-    </div>
-  `
-    : ""
-
-  const arrowsHTML = hasMultiple
-    ? `
-    <div class="slideshow-arrows">
-      <button class="slideshow-arrow prev" aria-label="Previous product">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="m15 18-6-6 6-6"/>
-        </svg>
-      </button>
-      <button class="slideshow-arrow next" aria-label="Next product">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="m9 18 6-6-6-6"/>
-        </svg>
-      </button>
-    </div>
-  `
-    : ""
-
-  return `
-    <article class="product-card" data-card-index="${index}">
-      <div class="slideshow-container">
-        <div class="product-image-container">
-          <img src="${group.image}" alt="${products[0].name}" loading="lazy" onerror="this.src='https://placehold.co/400x300/F5F0EB/8B5A5A?text=DMAMA+Beauty'">
-          ${hasMultiple ? `<span class="product-count-badge">${products.length} products</span>` : ""}
-        </div>
-        ${arrowsHTML}
-        ${dotsHTML}
-      </div>
-      <div class="product-info">
-        ${slidesHTML}
-      </div>
-    </article>
-  `
-}
-
-// Render products
-function renderProducts() {
-  // Clear existing intervals
-  Object.values(slideshowIntervals).forEach((interval) => clearInterval(interval))
-  slideshowIntervals = {}
-
-  const filtered = filterProducts()
-  const totalProducts = filtered.reduce((sum, group) => sum + group.products.length, 0)
-
-  if (filtered.length === 0) {
-    productsGrid.innerHTML = ""
-    noResults.style.display = "block"
-    resultsCount.textContent = "No products found"
-    return
+categoryFilter.addEventListener("click", (e) => {
+  if (e.target.classList.contains("category-btn")) {
+    document.querySelectorAll(".category-btn").forEach(btn => btn.classList.remove("active"));
+    e.target.classList.add("active");
+    filterProducts();
   }
+});
 
-  noResults.style.display = "none"
-  resultsCount.textContent = `Showing ${totalProducts} product${totalProducts !== 1 ? "s" : ""} in ${filtered.length} collection${filtered.length !== 1 ? "s" : ""}`
-
-  productsGrid.innerHTML = filtered.map((group, index) => createProductCard(group, index)).join("")
-
-  // Setup slideshow functionality for each card
-  document.querySelectorAll(".product-card").forEach((card, cardIndex) => {
-    setupSlideshow(card, filtered[cardIndex].products.length)
-  })
-}
-
-// Setup slideshow for a card
-function setupSlideshow(card, productCount) {
-  if (productCount <= 1) return
-
-  const slides = card.querySelectorAll(".product-slide")
-  const dots = card.querySelectorAll(".slideshow-dot")
-  const prevBtn = card.querySelector(".slideshow-arrow.prev")
-  const nextBtn = card.querySelector(".slideshow-arrow.next")
-  let currentSlide = 0
-
-  function showSlide(index) {
-    currentSlide = (index + productCount) % productCount
-
-    slides.forEach((slide, i) => {
-      slide.classList.toggle("active", i === currentSlide)
-    })
-
-    dots.forEach((dot, i) => {
-      dot.classList.toggle("active", i === currentSlide)
-    })
-  }
-
-  // Arrow navigation
-  prevBtn?.addEventListener("click", () => showSlide(currentSlide - 1))
-  nextBtn?.addEventListener("click", () => showSlide(currentSlide + 1))
-
-  // Dot navigation
-  dots.forEach((dot, i) => {
-    dot.addEventListener("click", () => showSlide(i))
-  })
-
-  // Auto slideshow
-  const cardIndex = card.dataset.cardIndex
-  slideshowIntervals[cardIndex] = setInterval(() => showSlide(currentSlide + 1), 2000)
-
-  // Pause on hover
-  card.addEventListener("mouseenter", () => clearInterval(slideshowIntervals[cardIndex]))
-  card.addEventListener("mouseleave", () => {
-    slideshowIntervals[cardIndex] = setInterval(() => showSlide(currentSlide + 1), 5000)
-  })
-}
-
-// Event Listeners
-categoryTabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    categoryTabs.forEach((t) => t.classList.remove("active"))
-    tab.classList.add("active")
-    currentCategory = tab.dataset.category
-    renderProducts()
-  })
-})
-
-searchInput.addEventListener("input", (e) => {
-  searchQuery = e.target.value
-  renderProducts()
-})
+clearFilters.addEventListener("click", () => {
+  searchInput.value = "";
+  document.querySelectorAll(".category-btn").forEach(btn => btn.classList.remove("active"));
+  document.querySelector('.category-btn[data-category="all"]').classList.add("active");
+  displayProducts();
+});
 
 // Initialize
-document.addEventListener("DOMContentLoaded", renderProducts)
+createCategoryButtons();
+displayProducts();
