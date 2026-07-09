@@ -69,8 +69,10 @@ items are checked off. Verify with the workflow at the bottom before pushing.
       WhatsApp button href contains encoded product name, zero console errors.
 - [x] Check OG tags with `curl -s localhost:8099 | grep 'og:'`.
 - [x] Commit remaining work, `git push origin main`.
-- [ ] After deploy: verify `https://dmamasbeauty.com.ng` shows new catalogue; share the URL in a
-      WhatsApp chat to confirm the preview card renders.
+- [x] After deploy: verified live site serves new catalogue, OG tags, sitemap (2026-07-09).
+- [x] Google Search Console: property verified (HTML file), sitemap.xml submitted, homepage
+      indexing requested — in priority crawl queue as of 2026-07-09.
+- [ ] Share the URL in a WhatsApp chat to eyeball the preview card (owner).
 
 ## Out of scope / later ideas
 
