@@ -560,5 +560,42 @@ searchInput.addEventListener("input", (e) => {
   renderProducts()
 })
 
+// SEO: structured data for products (Google reads JS-injected JSON-LD)
+function injectProductSchema() {
+  const items = []
+  productGroups.forEach((group) => {
+    group.products.forEach((product) => {
+      items.push({
+        "@type": "Product",
+        name: product.name,
+        description: product.description,
+        image: `https://dmamasbeauty.com.ng/${encodeURI(group.image)}`,
+        brand: { "@type": "Brand", name: "Oriflame" },
+        offers: {
+          "@type": "Offer",
+          price: product.price.replace(/[^0-9.]/g, ""),
+          priceCurrency: "NGN",
+          availability: "https://schema.org/InStock",
+          seller: { "@type": "Organization", name: "DMAMA Beauty" },
+        },
+      })
+    })
+  })
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, i) => ({ "@type": "ListItem", position: i + 1, item })),
+  }
+  const tag = document.createElement("script")
+  tag.type = "application/ld+json"
+  tag.textContent = JSON.stringify(schema)
+  document.head.appendChild(tag)
+}
+
 // Initialize
-document.addEventListener("DOMContentLoaded", renderProducts)
+document.addEventListener("DOMContentLoaded", () => {
+  renderProducts()
+  injectProductSchema()
+  const yearEl = document.getElementById("footerYear")
+  if (yearEl) yearEl.textContent = new Date().getFullYear()
+})

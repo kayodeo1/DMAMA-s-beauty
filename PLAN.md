@@ -17,24 +17,24 @@ items are checked off. Verify with the workflow at the bottom before pushing.
 
 ## Phase 1 — SEO (commit: "SEO: meta, social preview, sitemap, structured data")
 
-- [ ] `index.html` head: meta description (Oriflame Nigeria / catalogue keywords), canonical
+- [x] `index.html` head: meta description (Oriflame Nigeria / catalogue keywords), canonical
       `https://dmamasbeauty.com.ng/`, `theme-color`, Open Graph (title/description/url/type/image
       1200x630), Twitter card (`summary_large_image`).
-- [ ] Favicon set: `favicon.svg` (brand ✦ on rose background) + `favicon.png` 48px +
+- [x] Favicon set: `favicon.svg` (brand ✦ on rose background) + `favicon.png` 48px +
       `apple-touch-icon.png` 180px, linked in head. Colors from `css/styles.css` variables.
-- [ ] Social preview image `images/og-cover.jpg` (1200x630, brand typography; can be rendered
+- [x] Social preview image `images/og-cover.jpg` (1200x630, brand typography; can be rendered
       with Playwright screenshot of a small HTML file).
-- [ ] `robots.txt` (allow all, point to sitemap) and `sitemap.xml` (single URL, lastmod today).
-- [ ] JSON-LD in `index.html`: `LocalBusiness` (name, url, telephone +2348023337336,
+- [x] `robots.txt` (allow all, point to sitemap) and `sitemap.xml` (single URL, lastmod today).
+- [x] JSON-LD in `index.html`: `LocalBusiness` (name, url, telephone +2348023337336,
       addressCountry NG, sameAs Facebook/Instagram URLs from the contact section).
-- [ ] Dynamic JSON-LD `ItemList` of products injected on load in `script.js` from
+- [x] Dynamic JSON-LD `ItemList` of products injected on load in `script.js` from
       `productGroups` (name, image, `offers` with NGN price parsed from the price string).
-- [ ] Footer: dynamic year (`new Date().getFullYear()`), fixes stale "© 2025".
-- [ ] `<noscript>` fallback paragraph (brand line + call/WhatsApp links) since all content is JS-rendered.
+- [x] Footer: dynamic year (`new Date().getFullYear()`), fixes stale "© 2025".
+- [x] `<noscript>` fallback paragraph (brand line + call/WhatsApp links) since all content is JS-rendered.
 
 ## Phase 2 — Push (after Phase 1)
 
-- [ ] `git push origin main` (deploys via GitHub Pages).
+- [x] `git push origin main` (deploys via GitHub Pages).
 
 ## Phase 3 — Performance (commit: "perf: compressed grid thumbnails")
 

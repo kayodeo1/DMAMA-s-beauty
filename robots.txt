@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /archived/
+
+Sitemap: https://dmamasbeauty.com.ng/sitemap.xml
