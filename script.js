@@ -124,11 +124,11 @@ const productGroups = [
     products: [
       { name: "Optimals Purifying Clay Face Mask", category: "Skincare", description: "A purifying clay face mask that helps activate glowing, dream skin.", price: "NGN 20,590", size: "50 ml" },
       { name: "Optimals Soothing Micellar Cleansing Water", category: "Skincare", description: "A soothing micellar cleansing water that helps activate glowing, dream skin.", price: "NGN 17,490", size: "150 ml" },
-      { name: "Opt Optimals Soft Creamy Cleanser", category: "Skincare", description: "Perfect for dry skin, it effectively cleanses without stripping skin of moisture.", price: "NGN 17,490", size: "150 ml" },
-      { name: "Opt Optimals Even Out Light Cream", category: "Skincare", description: "Ideal for oily skin, it helps prevent hyperpigmentation.", price: "NGN 26,190", size: "50 ml" },
-      { name: "Opt Optimals Even Out Serum", category: "Skincare", description: "Helps boost surface cell turnover with O-Brightening Complex and Glycolic Acid.", price: "NGN 31,890", size: "30 ml" },
-      { name: "Opt Optimals Eye & Lip Contour Cream", category: "Skincare", description: "Provides refreshing hydration for skin around the eyes and lips.", price: "NGN 22,490", size: "15 ml" },
-      { name: "Opt Optimals Daily Glow Multi-Protector SPF50", category: "Skincare", description: "Provides a glowing complexion and protection against UV.", price: "NGN 28,990", size: "30 ml" },
+      { name: "Optimals Soft Creamy Cleanser", category: "Skincare", description: "Perfect for dry skin, it effectively cleanses without stripping skin of moisture.", price: "NGN 17,490", size: "150 ml" },
+      { name: "Optimals Even Out Light Cream", category: "Skincare", description: "Ideal for oily skin, it helps prevent hyperpigmentation.", price: "NGN 26,190", size: "50 ml" },
+      { name: "Optimals Even Out Serum", category: "Skincare", description: "Helps boost surface cell turnover with O-Brightening Complex and Glycolic Acid.", price: "NGN 31,890", size: "30 ml" },
+      { name: "Optimals Eye & Lip Contour Cream", category: "Skincare", description: "Provides refreshing hydration for skin around the eyes and lips.", price: "NGN 22,490", size: "15 ml" },
+      { name: "Optimals Daily Glow Multi-Protector SPF50", category: "Skincare", description: "Provides a glowing complexion and protection against UV.", price: "NGN 28,990", size: "30 ml" },
     ],
   },
   {
@@ -205,7 +205,7 @@ const productGroups = [
   {
     image: "images/C3-2026 catalogue 3_page-0024.jpg",
     products: [
-      { name: "Wellosophy Meal Replacement For Weight Control Chocolate Flavour (Nutrition Facts)", category: "Nutrition", description: "High in protein and a source of fibre at 202-204 calories per serving, with 23 vitamins and minerals; just add milk for a nutritionally complete, calorie-controlled meal.", price: "NGN 149,000", size: "525 g" },
+      { name: "Wellosophy Meal Replacement For Weight Control Chocolate Flavour", category: "Nutrition", description: "High in protein and a source of fibre at 202-204 calories per serving, with 23 vitamins and minerals; just add milk for a nutritionally complete, calorie-controlled meal.", price: "NGN 149,000", size: "525 g" },
       { name: "Wellosophy Smartshake Bottle", category: "Nutrition", description: "A 3-in-1 shaker bottle with a leak-proof cap, three stackable compartments with a removable organiser, and a metallic clip for hands-free carrying.", price: "NGN 56,990", size: "22 x 9.5 cm" },
       { name: "Wellosophy Scoop", category: "Nutrition", description: "A measuring scoop designed for use with Wellosophy powders.", price: "NGN 4,590", size: "11.2 x 4.2 cm" },
     ],
@@ -224,8 +224,8 @@ const productGroups = [
   {
     image: "images/C3-2026 catalogue 3_page-0026.jpg",
     products: [
-      { name: "Wellosophy Wellness Pack Woman (3-Week Supply)", category: "Nutrition", description: "A 3-week supply wellness pack formulated to address the nutritional needs of women, with 22 essential vitamins and minerals plus omega-3 fatty acids EPA and DHA.", price: "NGN 89,990", size: "66.3 g" },
-      { name: "Wellosophy Wellness Pack Man (3-Week Supply)", category: "Nutrition", description: "A 3-week supply wellness pack formulated to address the nutritional needs of men, with 22 essential vitamins and minerals plus omega-3 fatty acids EPA and DHA.", price: "NGN 89,990", size: "66.3 g" },
+      { name: "Wellosophy Wellness Pack Woman", category: "Nutrition", description: "A 3-week supply wellness pack formulated to address the nutritional needs of women, with 22 essential vitamins and minerals plus omega-3 fatty acids EPA and DHA.", price: "NGN 89,990", size: "66.3 g" },
+      { name: "Wellosophy Wellness Pack Man", category: "Nutrition", description: "A 3-week supply wellness pack formulated to address the nutritional needs of men, with 22 essential vitamins and minerals plus omega-3 fatty acids EPA and DHA.", price: "NGN 89,990", size: "66.3 g" },
     ],
   },
   {
@@ -417,9 +417,15 @@ function filterProducts() {
 }
 
 // Create product card HTML
+function whatsappOrderLink(product) {
+  const message = `Hi DMAMA Beauty! I'd like to order: ${product.name} (${product.size}) - ${product.price}`
+  return `https://wa.me/2348023337336?text=${encodeURIComponent(message)}`
+}
+
 function createProductCard(group, index) {
   const products = group.products
   const hasMultiple = products.length > 1
+  const thumbSrc = group.image.replace("images/", "images/thumbs/")
 
   const slidesHTML = products
     .map(
@@ -429,6 +435,12 @@ function createProductCard(group, index) {
       <h3 class="product-name">${product.name}</h3>
       <p class="product-description">${product.description}</p>
       <p class="product-price">${product.price} <span style="font-size: 0.8rem; font-weight: 400; color: var(--color-text-muted);">(${product.size})</span></p>
+      <a class="order-btn" href="${whatsappOrderLink(product)}" target="_blank" rel="noopener" aria-label="Order ${product.name} on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+        Order on WhatsApp
+      </a>
     </div>
   `,
     )
@@ -462,9 +474,17 @@ function createProductCard(group, index) {
   return `
     <article class="product-card" data-card-index="${index}">
       <div class="slideshow-container">
-        <div class="product-image-container">
-          <img src="${group.image}" alt="${products[0].name}" loading="lazy" onerror="this.src='https://placehold.co/400x300/F5F0EB/8B5A5A?text=DMAMA+Beauty'">
+        <div class="product-image-container" data-full="${group.image}" title="Tap to view catalogue page">
+          <img src="${thumbSrc}" alt="${products[0].name}" loading="lazy" onerror="if (!this.dataset.retried) { this.dataset.retried = '1'; this.src = this.closest('.product-image-container').dataset.full } else { this.src = 'https://placehold.co/400x300/F5F0EB/8B5A5A?text=DMAMA+Beauty' }">
           ${hasMultiple ? `<span class="product-count-badge">${products.length} products</span>` : ""}
+          <span class="zoom-hint" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+              <path d="M11 8v6"></path>
+              <path d="M8 11h6"></path>
+            </svg>
+          </span>
         </div>
         ${arrowsHTML}
         ${dotsHTML}
@@ -538,12 +558,42 @@ function setupSlideshow(card, productCount) {
   const cardIndex = card.dataset.cardIndex
   slideshowIntervals[cardIndex] = setInterval(() => showSlide(currentSlide + 1), 2000)
 
-  // Pause on hover
+  // Pause on hover / touch (mobile has no hover)
   card.addEventListener("mouseenter", () => clearInterval(slideshowIntervals[cardIndex]))
+  card.addEventListener("touchstart", () => clearInterval(slideshowIntervals[cardIndex]), { passive: true })
   card.addEventListener("mouseleave", () => {
     slideshowIntervals[cardIndex] = setInterval(() => showSlide(currentSlide + 1), 5000)
   })
 }
+
+// Lightbox: click a card image to view the full catalogue page
+const lightbox = document.getElementById("lightbox")
+const lightboxImage = document.getElementById("lightboxImage")
+
+function openLightbox(fullSrc) {
+  lightboxImage.src = fullSrc
+  lightbox.hidden = false
+  document.body.style.overflow = "hidden"
+}
+
+function closeLightbox() {
+  lightbox.hidden = true
+  lightboxImage.src = ""
+  document.body.style.overflow = ""
+}
+
+productsGrid.addEventListener("click", (e) => {
+  const container = e.target.closest(".product-image-container")
+  if (container?.dataset.full) openLightbox(container.dataset.full)
+})
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox || e.target.closest(".lightbox-close")) closeLightbox()
+})
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !lightbox.hidden) closeLightbox()
+})
 
 // Event Listeners
 categoryTabs.forEach((tab) => {

@@ -596,3 +596,91 @@ body {
     max-width: 300px;
   }
 }
+
+/* Order on WhatsApp button (per product slide) */
+.order-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #25d366;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.order-btn:hover {
+  background: #1eb855;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Zoom hint on card images */
+.product-image-container {
+  cursor: zoom-in;
+}
+
+.zoom-hint {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.85);
+  color: var(--color-primary);
+  box-shadow: var(--shadow-sm);
+  pointer-events: none;
+}
+
+/* Catalogue page lightbox */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(30, 24, 22, 0.85);
+  cursor: zoom-out;
+}
+
+.lightbox[hidden] {
+  display: none;
+}
+
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: var(--radius-sm);
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.4);
+  cursor: default;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.lightbox-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

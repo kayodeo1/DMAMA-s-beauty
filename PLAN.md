@@ -38,37 +38,37 @@ items are checked off. Verify with the workflow at the bottom before pushing.
 
 ## Phase 3 — Performance (commit: "perf: compressed grid thumbnails")
 
-- [ ] Generate `images/thumbs/` from the 45 catalogue pages at ~720px wide, JPEG q~72
+- [x] Generate `images/thumbs/` from the 45 catalogue pages at ~720px wide, JPEG q~72
       (macOS: `sips --resampleWidth 720 -s format jpeg -s formatOptions 72`). Target ≤120KB each.
-- [ ] Grid cards load the thumb; keep full-res path on the card (e.g. `data-full`) for the lightbox.
-- [ ] Keep `productGroups[].image` pointing at full-res; derive thumb path in `createProductCard`
+- [x] Grid cards load the thumb; keep full-res path on the card (e.g. `data-full`) for the lightbox.
+- [x] Keep `productGroups[].image` pointing at full-res; derive thumb path in `createProductCard`
       (same filename inside `images/thumbs/`), with `onerror` fallback to full-res.
 
 ## Phase 4 — UI / conversion (commit: "feat: WhatsApp ordering + catalogue lightbox")
 
-- [ ] Per-product "Order on WhatsApp" button on every slide in `createProductCard`:
+- [x] Per-product "Order on WhatsApp" button on every slide in `createProductCard`:
       `https://wa.me/2348023337336?text=<encoded "Hi DMAMA Beauty! I'd like to order: {name} ({size}) - {price}">`.
       Style to match `.btn-primary`, smaller; must not break slideshow layout.
-- [ ] Click on card image opens a lightbox showing the full-res spread (readable text):
+- [x] Click on card image opens a lightbox showing the full-res spread (readable text):
       fixed overlay, dark backdrop, close on backdrop click / Esc / × button; lazy-load full image
       only when opened. Plain JS + CSS in existing files.
-- [ ] Product-name cleanups in `productGroups`: "Opt Optimals ..." → "Optimals ...";
+- [x] Product-name cleanups in `productGroups`: "Opt Optimals ..." → "Optimals ...";
       drop "(Nutrition Facts)" and "(3-Week Supply)" disambiguation suffixes (fold duplicates:
       pages 23/24 and 23/26 repeat Meal Replacement and Wellness Packs — keep both entries,
       just make names identical and natural).
-- [ ] Pause slideshow on touchstart (mobile equivalent of the existing mouseenter pause).
-- [ ] Delete dead `css/styles222.css`.
+- [x] Pause slideshow on touchstart (mobile equivalent of the existing mouseenter pause).
+- [x] Delete dead `css/styles222.css`.
 
 ## Phase 5 — Verify + final push
 
-- [ ] `node --check script.js`.
-- [ ] Serve locally: `python3 -m http.server 8099` from repo root.
-- [ ] Playwright (scratchpad has `verify.js` pattern from 2026-07-09 session): desktop 1400px +
+- [x] `node --check script.js`.
+- [x] Serve locally: `python3 -m http.server 8099` from repo root.
+- [x] Playwright (scratchpad has `verify.js` pattern from 2026-07-09 session): desktop 1400px +
       mobile 390px — products render (should stay "171 products in 41 collections"), category
       tabs filter, search works, thumbs load (naturalWidth ~720), lightbox opens full-res,
       WhatsApp button href contains encoded product name, zero console errors.
-- [ ] Check OG tags with `curl -s localhost:8099 | grep 'og:'`.
-- [ ] Commit remaining work, `git push origin main`.
+- [x] Check OG tags with `curl -s localhost:8099 | grep 'og:'`.
+- [x] Commit remaining work, `git push origin main`.
 - [ ] After deploy: verify `https://dmamasbeauty.com.ng` shows new catalogue; share the URL in a
       WhatsApp chat to confirm the preview card renders.
 
